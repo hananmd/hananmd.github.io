@@ -52,7 +52,7 @@ What made this project meaningful wasn't just the game mechanics — it was the 
 Beyond featured work, here are a couple of things I've shipped recently:
 
 - **Mail Client** — A functional email client project exploring network protocols and client-server communication.
-- **Pod Scanner** — A network utility tool for scanning pods/services, giving me hands-on experience with lower-level networking concepts.
+- **Port Scanner** — A network utility tool for scanning ports, giving me hands-on experience with lower-level networking concepts.
 
 Both projects pushed me to get comfortable with areas I hadn't deeply explored before — and that's exactly the point.
 
