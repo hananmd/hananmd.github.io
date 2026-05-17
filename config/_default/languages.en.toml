@@ -1,0 +1,22 @@
+weight = 1
+title = "My Blog"
+
+[params]
+  locale = "en"
+  label = "English"
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = ""
+  description = "My personal blog."
+
+[params.author]
+  name = "Hanan"
+  email = "hananmdofficials@gmail.com"
+  image = ""
+  headline = "CS Student at UCSC"
+  bio = "Writing about tech, code, and everything in between."
+  links = [
+    { github = "https://github.com/hananmd" },
+  ]

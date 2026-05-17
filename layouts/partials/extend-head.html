@@ -1,0 +1,128 @@
+<style>
+  /* ── Base ── */
+  body {
+    background: #080c14 !important;
+  }
+
+  #particles-js {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* All content sits above particles */
+  header, main, footer, nav {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ── Remove all box/card backgrounds ── */
+  .card, article, .prose,
+  .backdrop, [class*="bg-"] {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* ── Navbar ── */
+  header {
+    background: rgba(8, 12, 20, 0.7) !important;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+  }
+
+  /* ── Typography ── */
+  h1 {
+    color: #00ff88 !important;
+    font-family: 'Courier New', monospace !important;
+    text-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+    letter-spacing: -0.5px;
+  }
+
+  h2, h3 {
+    color: #00cfff !important;
+    font-family: 'Courier New', monospace !important;
+    text-shadow: 0 0 10px rgba(0, 207, 255, 0.3);
+  }
+
+  p, li, span, td, th {
+    color: #c8d3e0 !important;
+  }
+
+  a {
+    color: #00ff88 !important;
+    text-decoration: none !important;
+    transition: text-shadow 0.2s;
+  }
+
+  a:hover {
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.6) !important;
+  }
+
+  /* ── Breadcrumb ── */
+  nav[aria-label="breadcrumb"] {
+    color: #555 !important;
+  }
+
+  /* ── Tags/Badges ── */
+  .badge, [class*="tag"], [class*="badge"] {
+    background: transparent !important;
+    border: 1px solid #00ff8866 !important;
+    color: #00ff88 !important;
+    border-radius: 3px !important;
+    font-size: 0.75rem !important;
+    padding: 2px 8px !important;
+  }
+
+  /* ── Code blocks ── */
+  pre, code {
+    background: rgba(0, 255, 136, 0.05) !important;
+    border: 1px solid rgba(0, 255, 136, 0.2) !important;
+    color: #00ff88 !important;
+    border-radius: 4px !important;
+  }
+
+  /* ── Table of contents ── */
+  .toc, [class*="toc"] {
+    background: rgba(0, 255, 136, 0.03) !important;
+    border-left: 2px solid #00ff8844 !important;
+    border-radius: 0 !important;
+  }
+
+  /* ── Post list cards ── */
+  .card {
+    border-left: 2px solid #00ff8833 !important;
+    padding-left: 1rem !important;
+    margin-bottom: 1.5rem !important;
+    transition: border-color 0.2s;
+  }
+
+  .card:hover {
+    border-left-color: #00ff88 !important;
+  }
+
+  /* ── Footer ── */
+  footer {
+    background: rgba(8, 12, 20, 0.8) !important;
+    border-top: 1px solid rgba(0, 255, 136, 0.1) !important;
+  }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #080c14; }
+  ::-webkit-scrollbar-thumb {
+    background: #00ff8844;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: #00ff88; }
+
+  /* ── Author section ── */
+  .author, [class*="author"] {
+    border-top: 1px solid #00ff8822 !important;
+    padding-top: 1rem !important;
+  }
+</style>

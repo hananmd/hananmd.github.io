@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hanan&#39;s Tech Blog</title>
+    <title>Categories on My Blog</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Hanan&#39;s Tech Blog</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Categories on My Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>hananmdofficials@gmail.com (Hanan)</managingEditor>
+    <webMaster>hananmdofficials@gmail.com (Hanan)</webMaster>
+    <copyright>© 2026 Hanan</copyright>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <author>hananmdofficials@gmail.com (Hanan)</author>
+      <guid>http://localhost:1313/categories/projects/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
