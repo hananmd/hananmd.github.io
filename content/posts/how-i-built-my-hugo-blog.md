@@ -1,6 +1,6 @@
 ---
 title: "How I Built My Hugo Blog with GitHub Actions — And Fixed Every Mistake Along the Way"
-date: 2025-07-01
+date: 2026-05-16
 description: "A step-by-step walkthrough of my journey from localhost to live deployment — including every error, fix, and lesson learned."
 tags: ["hugo", "github-actions", "devops", "web", "beginner"]
 categories: ["Projects"]
